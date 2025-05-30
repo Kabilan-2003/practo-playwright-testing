@@ -1,0 +1,145 @@
+[
+    {
+      "name": "Fill Details without Contact Number",
+      "details": [
+        "John",
+        "Cognizant",
+        "",
+        "tempmail@mail.com",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Fill Details without Contact Email",
+      "details": [
+        "John",
+        "Cognizant",
+        "9782383492",
+        "",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Fill Details without Name",
+      "details": [
+        "",
+        "Cognizant",
+        "9782383492",
+        "tempmail@mail.com",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Fill Details without Organization Name",
+      "details": [
+        "John",
+        "",
+        "9782383492",
+        "tempmail@mail.com",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Fill Details without Selecting Organization Size",
+      "details": [
+        "John",
+        "Cognizant",
+        "9782383492",
+        "tempmail@mail.com",
+        "",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Fill Details without Selecting Intersted",
+      "details": [
+        "John",
+        "Cognizant",
+        "9782383492",
+        "tempmail@mail.com",
+        "10001+"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Filling Contact Number in Wrong Format",
+      "details": [
+        "John",
+        "Cognizant",
+        "2324242214",
+        "tempmail@mail.com",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Filling less than 10 numbers in Contact Number",
+      "details": [
+        "John",
+        "Cognizant",
+        "97823",
+        "tempmail@mail.com",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Filling more than 10 numbers in Contact Number",
+      "details": [
+        "John",
+        "Cognizant",
+        "978238349212",
+        "tempmail@mail.com",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Filling Mail Id without @",
+      "details": [
+        "John",
+        "Cognizant",
+        "9782383492",
+        "tempmail.com",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Filling Mail Id without domain Name",
+      "details": [
+        "",
+        "org",
+        "0000",
+        "aaaa@mail.com",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": true
+    },
+    {
+      "name": "Filling Correct Informations",
+      "details": [
+        "John",
+        "Cognizant",
+        "9782383492",
+        "tempmail@mail.com",
+        "10001+",
+        "Taking a demo"
+      ],
+      "expect_disabled": false
+    }
+  ]
