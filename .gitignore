@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+
+# Playwright
+test-results/
+playwright-report/
+.cache/ # Playwright browser downloads cache
+
+# Allure Reporter
+allure-results/
+
+# Data and Logs
+data/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# IDE specific files (e.g., VS Code)
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
